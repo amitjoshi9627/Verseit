@@ -2,8 +2,8 @@
 ### By Amit Joshi
 Verse-it is an AI model which generated poems when initiated with some words.
 
-<img src="src/img/screeneshot1.jpg?raw=true" width="1000">
-<img src="src/img/screenshot2.jpg?raw=true" width="1000">
+<img src="src/img/screenshot1.png?raw=true" width="1000">
+<img src="src/img/screenshot2.png?raw=true" width="1000">
 
 ### How to Run:
 1. Install necessary modules with `sudo pip3 install -r requirements.txt` command.
