@@ -9,6 +9,7 @@ class PoetryGeneratorModel:
         self.model = tf.keras.Sequential()
         self.model.add(Embedding(config.TOTAL_WORDS,
                                  config.EMBEDDING_DIM, input_length=config.MAX_LEN-1))
+        self.model.add(Bidirectional(LSTM(250,return_sequences=True)))
         self.model.add(Bidirectional(LSTM(250)))
         self.model.add(Dense(config.TOTAL_WORDS, activation="softmax"))
         self.model.compile(
