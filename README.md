@@ -1,6 +1,6 @@
 # VerseIt
 ### By Amit Joshi
-Verse-it is an AI model which generated poems when initiated with some words.
+Verse-it is an AI model that generates poems when initiated with some words.
 
 <img src="src/img/screenshot2.png?raw=true" width="1000">
 <img src="src/img/screenshot1.png?raw=true" width="1000">
